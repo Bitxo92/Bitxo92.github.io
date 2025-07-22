@@ -37,6 +37,9 @@
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid white; 
+  box-shadow: 0 0 20px rgba(29, 161, 242, 0.2),
+              0 0 50px rgba(29, 161, 242, 0.5),
+              0 0 100px rgba(29, 161, 242, 0.8);
 }
 
 .avatar img {
@@ -50,6 +53,7 @@
 }
 
 .homepage_description {
-  font-size: 0.9em;
+  font-size: 0.7em;
+  opacity: 0.5;
   font-weight: normal;
 }
