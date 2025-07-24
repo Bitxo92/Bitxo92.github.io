@@ -1,3 +1,13 @@
 *{
     background-color: #333;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;     
+  padding: 0 4em;
+  background-color: #333;
+  box-sizing: border-box;  
+}

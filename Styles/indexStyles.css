@@ -1,12 +1,4 @@
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  padding: 0 4em;
-  background-color: #333;
-}
+
 
 .homepage_message {
   display: relative;

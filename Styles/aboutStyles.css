@@ -1,0 +1,78 @@
+
+
+
+.about-container {
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 150px auto 50px auto;
+}
+
+.about-photo {
+  flex: 1;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #1da1f2;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.about-photo img:hover {
+  transform: scale(1.05);
+  border-color: #ff6b6b;
+}
+
+.about-content {
+  flex: 2;
+  text-align: left;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1da1f2;
+  transition: color 0.3s ease;
+}
+
+.about-content h1:hover {
+  color: #ff6b6b;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.about-content p:hover {
+  color: #20c20e;
+}
+
+.about-content a {
+  color: #1da1f2;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.about-content a:hover {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
