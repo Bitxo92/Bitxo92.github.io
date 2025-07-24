@@ -1,5 +1,5 @@
 header {
-  background-color: #333;
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -10,6 +10,10 @@ header {
   align-items: center;
   width: 100%;
   z-index: 99;
+}
+
+.navigation,a{
+  background-color: transparent;
 }
 
 .logo {

@@ -1,6 +1,6 @@
 footer {
   font-size: 1em;
-  background-color: #333;
+  background-color: transparent;
   margin-top: auto;
   position: fixed;
   bottom: 0;
@@ -13,7 +13,13 @@ footer {
   box-sizing: border-box;
   z-index: 3;
 }
+
+footer p{
+  background-color: transparent;
+}
+
 .social-icons {
+  background-color: transparent;
   display: flex;
   justify-content: center;
   gap: 1.5em;

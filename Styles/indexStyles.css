@@ -1,19 +1,15 @@
-
-
 .homepage_message {
   display: relative;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   background-color: #333;
   color: #fff;
   padding-left: 4em;
   font-size: 2em;
-  font-weight: bold;
 }
 
 .homepage_image {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #333;
@@ -24,14 +20,13 @@
 }
 
 .avatar {
-  width: 12em; 
+  width: 12em;
   height: auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid white; 
-  box-shadow: 0 0 20px rgba(29, 161, 242, 0.2),
-              0 0 50px rgba(29, 161, 242, 0.5),
-              0 0 100px rgba(29, 161, 242, 0.8);
+  border: 4px solid white;
+  box-shadow: 0 0 20px rgba(29, 161, 242, 0.2), 0 0 50px rgba(29, 161, 242, 0.5),
+    0 0 100px rgba(29, 161, 242, 0.8);
 }
 
 .avatar img {
@@ -48,4 +43,37 @@
   font-size: 0.7em;
   opacity: 0.5;
   font-weight: normal;
+}
+
+/* media queries------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+  .homepage_message {
+    font-size: 1.3em;
+  }
+
+  .avatar {
+    width: 10em;
+    box-shadow: 0 0 10px rgba(29, 161, 242, 0.2),
+      0 0 25px rgba(29, 161, 242, 0.4), 0 0 50px rgba(29, 161, 242, 0.6);
+  }
+
+  .homepage_description {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .homepage_message {
+    font-size: 1em;
+  }
+
+  .avatar {
+    width: 8em;
+    box-shadow: 0 0 9px rgba(29, 161, 242, 0.2),
+      0 0 25px rgba(29, 161, 242, 0.4), 0 0 50px rgba(29, 161, 242, 0.6);
+  }
+
+  .homepage_description {
+    font-size: 0.6em;
+  }
 }
